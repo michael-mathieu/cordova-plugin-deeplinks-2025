@@ -314,8 +314,8 @@ function injectPathComponentIntoIntentFilter(intentFilter, pathName) {
 
   var attrKey = 'android:path';
   if (pathName.indexOf('*') >= 0) {
-    attrKey = 'android:pathPattern';
-    pathName = pathName.replace(/\*/g, '.*');
+    attrKey = 'android:pathPrefix';
+	pathName = pathName.replace(/\/\*$/, '');
   }
 
   if (pathName.indexOf('/') != 0) {
