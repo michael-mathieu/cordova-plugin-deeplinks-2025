@@ -39,9 +39,9 @@
   "author": "Nikolay Demyankov for Nordnet Bank AB",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/e-imaxina/cordova-plugin-deeplinks/issues"
+    "url": "https://github.com/michael-mathieu/cordova-plugin-deeplinks-2025/issues"
   },
-  "homepage": "https://github.com/e-imaxina/cordova-plugin-deeplinks#readme",
+  "homepage": "https://michaelmathieu.net",
   "devDependencies": {
     "standard-version": "^7.0.0"
   },

@@ -51,13 +51,13 @@ It is important not only to redirect users to your app from the web, but also pr
 This requires cordova 5.0+ (current stable 1.2.1)
 
 ```sh
-cordova plugin add cordova-plugin-deeplinks
+cordova plugin add cordova-plugin-deeplinks-2025
 ```
 
 It is also possible to install via repo url directly (**unstable**)
 
 ```sh
-cordova plugin add https://github.com/e-imaxina/cordova-plugin-deeplinks.git
+cordova plugin add https://github.com/michael-mathieu/cordova-plugin-deeplinks-2025
 ```
 
 ### Cordova config preferences
